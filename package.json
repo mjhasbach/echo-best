@@ -1,0 +1,36 @@
+{
+  "name": "echo-best",
+  "version": "1.0.0",
+  "description": "The Echo Nest JavaScript API for RequireJS, Node, and browsers",
+  "main": "lib/echoBest.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bops": "~0.1.1",
+    "lodash": "~3.2.0",
+    "superagent": "~0.21.0"
+  },
+  "keywords": [
+    "echo",
+    "nest",
+    "javascript",
+    "api",
+    "browser",
+    "node",
+    "commonjs",
+    "requirejs",
+    "amd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjhasbach/echo-best.git"
+  },
+  "author": {
+    "name": "Matthew Hasbach",
+    "email": "hasbach.git@gmail.com",
+    "url": "https://github.com/mjhasbach"
+  },
+  "license": "MIT"
+}

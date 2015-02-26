@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>echo-best Browser Example</title>
+    <script src="../common/node_modules/echo-best/node_modules/bops/dist/bops.js"></script>
+    <script src="../common/node_modules/echo-best/node_modules/lodash/index.js"></script>
+    <script src="../common/node_modules/echo-best/node_modules/superagent/superagent.js"></script>
+    <script src="../common/node_modules/jquery/dist/jquery.js"></script>
+    <script src="../common/node_modules/echo-best/lib/echoBest.js"></script>
+    <script src="../common/objectToDOM.js"></script>
+    <script src="../common/getSongInfo.js"></script>
+    <script>
+        $(function() {
+            var $body = $('body');
+
+            $body.append(
+                $('<div>').text('Getting song info from the Echo Nest...')
+            );
+
+            getSongInfo(function(err, res){
+                var songs = res.songs;
+
+                if (err){ throw err; }
+
+                $body.empty();
+
+                if (_.isArray(songs) && _.isObject(songs[0])){
+                    objectToDOM($body, songs[0]);
+                }
+                else{
+                    $body.append($('<div>').text('Error - Invalid response received'));
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
