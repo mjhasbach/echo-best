@@ -26,8 +26,8 @@ Before running any of the examples, the dependencies must be downloaded:
 ```
 cd examples/shared && npm install
 ```
-[Browser Examples](placeholder)
+[Browser Examples](https://github.com/mjhasbach/echo-best/tree/master/examples/browser)
 
-[RequireJS Examples](placeholder)
+[RequireJS Examples](https://github.com/mjhasbach/echo-best/tree/master/examples/requirejs)
 
-[Node Examples](placeholder)
+[Node Examples](https://github.com/mjhasbach/echo-best/tree/master/examples/node)
