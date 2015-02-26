@@ -24,7 +24,7 @@ bower install echo-best --save
 # Examples
 Before running any of the examples, the dependencies must be downloaded:
 ```
-cd examples/common && npm install
+cd examples/shared && npm install
 ```
 [Browser Examples](placeholder)
 

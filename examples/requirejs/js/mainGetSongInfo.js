@@ -1,12 +1,12 @@
 require.config({
     paths: {
-        'bops': '../../common/node_modules/echo-best/node_modules/bops/dist/bops',
-        'lodash': '../../common/node_modules/echo-best/node_modules/lodash/index',
-        'superagent': '../../common/node_modules/echo-best/node_modules/superagent/superagent',
-        'jquery': '../../common/node_modules/jquery/dist/jquery',
-        'echo-best': '../../common/node_modules/echo-best/lib/echoBest',
-        'objectToDOM': '../../common/objectToDOM',
-        'getSongInfo': '../../common/getSongInfo'
+        'bops': '../../shared/node_modules/echo-best/node_modules/bops/dist/bops',
+        'lodash': '../../shared/node_modules/echo-best/node_modules/lodash/index',
+        'superagent': '../../shared/node_modules/echo-best/node_modules/superagent/superagent',
+        'jquery': '../../shared/node_modules/jquery/dist/jquery',
+        'echo-best': '../../shared/node_modules/echo-best/lib/echoBest',
+        'objectToDOM': '../../shared/objectToDOM',
+        'getSongInfo': '../../shared/getSongInfo'
     }
 });
 
