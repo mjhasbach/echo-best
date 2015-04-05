@@ -31,3 +31,14 @@ cd examples/shared && npm install
 [RequireJS Examples](https://github.com/mjhasbach/echo-best/tree/master/examples/requirejs)
 
 [Node Examples](https://github.com/mjhasbach/echo-best/tree/master/examples/node)
+
+# Tests
+Before running the tests, Mocha must be installed:
+```
+npm install -g mocha
+```
+
+To run the tests:
+```
+npm test
+```
