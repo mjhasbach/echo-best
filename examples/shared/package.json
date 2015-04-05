@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "detect-node": "~2.0.3",
-    "echo-best": "0.0.1",
+    "echo-best": "~1.0.1",
     "jquery": "~2.1.3",
     "jquery-vartodom": "~1.0.0",
     "requirejs": "~2.1.16"
