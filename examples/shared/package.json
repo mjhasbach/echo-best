@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "detect-node": "~2.0.3",
     "echo-best": "0.0.1",
     "jquery": "~1.11.2",
     "jquery-vartodom": "~1.0.0",

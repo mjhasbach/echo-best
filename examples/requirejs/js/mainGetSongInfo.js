@@ -10,4 +10,4 @@ require.config({
     }
 });
 
-require(['requireGetSongInfo']);
+require(['getSongInfo']);

@@ -11,30 +11,6 @@
     <script src="../shared/node_modules/echo-best/lib/echoBest.js"></script>
     <script src="../shared/node_modules/jquery-vartodom/lib/jquery-varToDOM.js"></script>
     <script src="../shared/getSongInfo.js"></script>
-    <script>
-        $(function() {
-            var $body = $('body');
-
-            $body.append(
-                $('<div>').text('Getting song info from the Echo Nest...')
-            );
-
-            getSongInfo(function(err, res){
-                var songs = res.songs;
-
-                if (err){ throw err; }
-
-                $body.empty();
-
-                if (_.isArray(songs) && _.isObject(songs[0])){
-                    $body.varToDOM({var: songs[0]});
-                }
-                else{
-                    $body.append($('<div>').text('Error - Invalid response received'));
-                }
-            });
-        });
-    </script>
 </head>
 <body>
 </body>
