@@ -5,6 +5,7 @@
   "dependencies": {
     "echo-best": "0.0.1",
     "jquery": "~1.11.2",
+    "jquery-vartodom": "~1.0.0",
     "requirejs": "~2.1.16"
   }
 }

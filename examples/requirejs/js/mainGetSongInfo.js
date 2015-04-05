@@ -5,7 +5,7 @@ require.config({
         'superagent': '../../shared/node_modules/echo-best/node_modules/superagent/superagent',
         'jquery': '../../shared/node_modules/jquery/dist/jquery',
         'echo-best': '../../shared/node_modules/echo-best/lib/echoBest',
-        'objectToDOM': '../../shared/objectToDOM',
+        'varToDOM': '../../shared/node_modules/jquery-vartodom/lib/jquery-varToDOM',
         'getSongInfo': '../../shared/getSongInfo'
     }
 });

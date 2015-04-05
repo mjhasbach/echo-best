@@ -1,4 +1,4 @@
-define(['jquery', 'objectToDOM', 'getSongInfo'], function($, objectToDOM, getSongInfo){
+define(['jquery', 'getSongInfo', 'varToDOM'], function($, getSongInfo){
     $(function() {
         var $body = $('body');
 
@@ -14,7 +14,7 @@ define(['jquery', 'objectToDOM', 'getSongInfo'], function($, objectToDOM, getSon
             $body.empty();
 
             if (_.isArray(songs) && _.isObject(songs[0])){
-                objectToDOM($body, songs[0]);
+                $body.varToDOM({var: songs[0]});
             }
             else{
                 $body.append($('<div>').text('Error - Invalid response received'));
