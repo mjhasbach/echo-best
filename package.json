@@ -1,6 +1,6 @@
 {
   "name": "echo-best",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Echo Nest JavaScript API for RequireJS, Node, and browsers",
   "license": "MIT",
   "homepage": "https://github.com/mjhasbach/echo-best",
