@@ -36,7 +36,11 @@
 
             http.get(songs[0])
                 .end(function(err, res){
-                    if (err) { tryNext(cb); }
+                    var cd = res.header['content-disposition'];
+
+                    if (err || cd.substr(cd.length - 3, cd.length) !== 'mp3') {
+                        tryNext(cb);
+                    }
                     else{
                         res.on('data', function (chunk) {
                             data.push(chunk);
