@@ -8,10 +8,10 @@
     }
 }(this, function (http) {
     var songs = [
-        'http://freedownloads.last.fm/download/550191337/Alive.mp3',
-        'http://freedownloads.last.fm/download/582135818/Together.mp3',
-        'http://freedownloads.last.fm/download/508242732/Gu.mp3',
-        'http://freedownloads.last.fm/download/653755146/Zonnestraal.mp3'
+        'https://freemusicarchive.org/music/download/8c3e4d8834f7a61b053ca5c6ab7efcbb432c3a07',
+        'https://freemusicarchive.org/music/download/a0b703e30eee1568c5b6821577f5a1d258d8fbd6',
+        'https://freemusicarchive.org/music/download/feea7ff585601c574c9949f5cb2d461cf4181d19',
+        'https://freemusicarchive.org/music/download/c01e832fe56475ed4ce83af975cfce05755b3943'
     ];
 
     function tryNext(cb) {
